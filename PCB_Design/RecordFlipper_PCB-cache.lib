@@ -1,0 +1,107 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_LP2950-3.3_TO92
+#
+DEF Regulator_Linear_LP2950-3.3_TO92 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Regulator_Linear_LP2950-3.3_TO92" 0 125 50 H V L CNN
+F2 "Package_TO_SOT_THT:TO-92_Inline" 0 225 50 H I C CIN
+F3 "" 0 -50 50 H I C CNN
+ALIAS LM78L05_TO92 MC78L06_TO92 MC78L08_TO92 MC78L12_TO92 LM78L12_TO92 MC78L15_TO92 MC78L18_TO92 MC78L24_TO92 LM2931AZ-5.0_TO92 LM2936-3.0_TO92 LM2936-3.3_TO92 LM2936-5.0_TO92 LP2950-3.0_TO92 LP2950-3.3_TO92 LP2950-5.0_TO92 L78L33_TO92 L78L05_TO92 L78L06_TO92 L78L08_TO92 L78L09_TO92 L78L10_TO92 L78L12_TO92 L78L15_TO92 L78L18_TO92 L78L24_TO92
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X VO 1 300 0 100 L 50 50 1 1 w
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VI 3 -300 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# dk_Magnetic-Sensors-Linear-Compass-ICs_A1326LUA-T
+#
+DEF dk_Magnetic-Sensors-Linear-Compass-ICs_A1326LUA-T U 0 40 Y Y 1 F N
+F0 "U" -150 350 60 H V C CNN
+F1 "dk_Magnetic-Sensors-Linear-Compass-ICs_A1326LUA-T" 100 -300 60 H V L CNN
+F2 "digikey-footprints:Hall_Sensor_SIP-3_A132_LUA-T" 200 200 60 H I L CNN
+F3 "https://www.allegromicro.com/~/media/Files/Datasheets/A1324-5-6-Datasheet.ashx" 200 300 60 H I L CNN
+F4 "620-1433-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "A1326LUA-T" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Magnetic Sensors - Linear, Compass (ICs)" 200 700 60 H I L CNN "Family"
+F8 "https://www.allegromicro.com/~/media/Files/Datasheets/A1324-5-6-Datasheet.ashx" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/allegro-microsystems-llc/A1326LUA-T/620-1433-ND/2728148" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR HALL EFFECT ANALOG 3SIP" 200 1000 60 H I L CNN "Description"
+F11 "Allegro MicroSystems, LLC" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 200 -100 -200 0 1 0 f
+X VCC 1 0 300 100 D 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VOUT 3 400 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# pspice_DIODE
+#
+DEF pspice_DIODE D 0 40 Y N 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "pspice_DIODE" 0 -175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 75 100 75 -100 N
+P 3 0 1 0 -75 100 -75 -100 75 0 F
+X K 1 -200 0 150 R 50 50 1 1 I
+X A 2 200 0 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
