@@ -27,7 +27,7 @@ This device automatically flips a vinyl record by sending PWM signals to servo m
 
 ```bash
 VinylRecordFlipper/
-├── PCB_Design/           # KiCad schematic, layout, and Gerbers
-├── Image_and_Video/     # Demo photo and video of the final product
+├── PCB_Design/                     # KiCad schematic, layout, and Gerbers
+├── Image_and_Video/                # Demo photo and video of the final product
 ├── Record_Flipper_Program.ino      # ESP32 code (Arduino-compatible)
-└── README.md             # You're here!
+└── README.md                       # You're here!
