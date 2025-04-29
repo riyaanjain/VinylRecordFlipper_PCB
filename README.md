@@ -13,8 +13,6 @@ Included are:
 
 Hopefully, you enjoy it as much as I did.
 
-Thank you for stopping by!
-
 ---
 
 ## 🧠 What It Does
@@ -42,4 +40,4 @@ VinylRecordFlipper/
 ├── Image_and_Video/                # Demo photo and video of the final product
 │   └── project_photo.jpeg
 ├── Record_Flipper_Program.ino      # ESP32 code (Arduino-compatible)
-└── README.md                       # You're here!
+└── README.md                       # You're here
