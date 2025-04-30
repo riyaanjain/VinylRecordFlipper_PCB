@@ -27,7 +27,7 @@ This device automatically flips a vinyl record by sending PWM signals to servo m
 ![PCB Preview](PCB_Design/PCB_preview.png)
 
 ### 📸 Final Project Photo  
-![Project Photo](Image_and_Video/project_photo.jpeg)
+![Project Photo](Image_and_Video/IMG_6376.jpeg)
 
 ---
 
