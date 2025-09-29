@@ -2,7 +2,7 @@
 
 I love vinyl records.
 
-But as a 21st century kid, I may be too lazy for the repeated getting up and down required to continue playback of music every few minutes or so. I love my record collection, but I just wish that, after I put the record on, it would just play the entire album.
+But as a member of Gen laZy, I don't enjoy the repeated getting up and down required to continue playback of music every 20 minutes or so. I love my record collection, but I just wish that, after I put the record on, it would just play the entire album.
 
 So, we took matters into our own hands and built an **automatic vinyl record flipper**.
 
