@@ -2,7 +2,7 @@
 
 I love vinyl records.
 
-But I'm lazy so I don't love the repeated getting up and down required to continue playback of music every 20 minutes or so. I love my record collection, but I just wish that, after I put the record on, it would play the entire album.
+But each side of a 12 inch LP can only store about 20 minutes of music, and I don't necessarily love having to get up to flip the record often. I just wish that, after I put the record on, it would play the entire album.
 
 So, we took matters into our own hands and built an **automatic vinyl record flipper**.
 
