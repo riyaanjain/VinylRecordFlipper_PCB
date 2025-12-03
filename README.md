@@ -7,9 +7,10 @@ But each side of a 12 inch LP can only store about 20 minutes of music, and I do
 So, we took matters into our own hands and built an **automatic vinyl record flipper**.
 
 Included are:
-- 🛠️ **PCB Design Files made with KiCad**
-- 💻 **The program code**
-- 📷 **A picture and video for your enjoyment (have to download the video from Image_and_Video folder🥲)**
+- **PCB Design Files**
+- **The program code**
+- **A picture and video for your enjoyment (have to download the video from Image_and_Video folder🥲)**
+- **Design Document**
 
 Hopefully, you enjoy it as much as I did.
 
