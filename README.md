@@ -12,7 +12,7 @@ Included are:
 - **A picture and video for your enjoyment (have to download the video from Image_and_Video folder🥲)**
 - **Design Document**
 
-Hopefully, you enjoy it as much as I did.
+Hopefully you enjoy it as much as I did!
 
 ---
 
