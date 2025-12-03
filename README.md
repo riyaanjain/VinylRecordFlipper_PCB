@@ -9,7 +9,7 @@ So, we took matters into our own hands and built an **automatic vinyl record fli
 Included are:
 - 🛠️ **PCB Design Files made with KiCad**
 - 💻 **The program code**
-- 📷 **A picture and video for your enjoyment (have to download the video🥲)**
+- 📷 **A picture and video for your enjoyment (have to download the video from Image_and_Video folder🥲)**
 
 Hopefully, you enjoy it as much as I did.
 
